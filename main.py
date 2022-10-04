@@ -4,6 +4,9 @@ from tkinter.font import Font
 root = Tk()
 root.title("simple calculator")
 
+root.minsize(400, 400)
+root.maxsize(400, 400)
+
 myEntry = Entry(root,width=40,borderwidth=3,font=(20))
 myEntry.grid(row=0,column=0,columnspan=4,ipady=10)
 
