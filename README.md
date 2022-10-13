@@ -13,11 +13,11 @@ git clone https://github.com/[YOUR-USERNAME]/Simple-calculator.git
 ```sh
 cd Simple-calculator
 ```
-4. Install tkinter
+4. Install requirements
 ```sh
 pip install tkinter
 ```
 5. Run the program
 ```sh
-python script.py
+python main.py
 ```
